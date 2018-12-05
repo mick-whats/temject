@@ -1,4 +1,6 @@
 # temject
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject?ref=badge_shield)
+
 
 'Hello, {{name:pascal}}! Today is {{__date}}'  
 --> "Hello, World! Today is 2018-12-04"
@@ -226,3 +228,5 @@ dateTimeInjector('{{0:camel}}{{0:pascal}}{{0:dot}}', ['toDo'])
 
 ## License
 MIT © mick-whats
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject?ref=badge_large)
