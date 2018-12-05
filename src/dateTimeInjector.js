@@ -7,7 +7,7 @@ const hash = (n = 4) => {
 /**
  * dateTimeInjector
  *
- * @param {string} str - before injection text
+ * @param {string} str - basic template strings
  * @return {string}
  * @example
  * dateTimeInjector('{{__hash8}}: {{__date}}')

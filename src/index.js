@@ -5,10 +5,11 @@ module.exports.dateTimeInjector = dateTimeInjector
 module.exports.keyValueInjector = keyValueInjector
 
 /**
+ * temject
+ * execute functions "keyValueInjector" and "dateTimeInjector"
  *
- *
- * @param {string} str - 変換したい文字列を含んだテキスト
- * @param {Object} mix - injectしたいkey:valueを含んだobject
+ * @param {string} str - basic template strings
+ * @param {Object} mix - object containing the key & value you want to inject
  * @return {string}
  * @example
  * const x = 'Hello, {{name:pascal}}! Today is {{__date}}'

@@ -1,9 +1,10 @@
 const cc = require('change-case')
 /**
- * temject
+ * keyValueInjector
  *
- * @param {string} str - template-text
- * @param {Object} mix - imports
+ *
+ * @param {string} str - basic template strings
+ * @param {Object} mix - object containing the key & value you want to inject
  * @return {string}
  * @example
  * const x = 'Hello, {{name:pascal}}!'
