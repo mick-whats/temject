@@ -17,13 +17,6 @@ module.exports = function dateTimeInjector (str) {
   const RGX = /{{__(.*?)}}/g
   return str.replace(RGX, (x, key, y) => {
     key = key.trim()
-    switch (key) {
-      case 'year':
-        break
-
-      default:
-        break
-    }
     const now = new Date()
     const dt = date.format.bind(null, now)
     const res = (() => {
