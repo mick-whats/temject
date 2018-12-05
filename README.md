@@ -1,6 +1,11 @@
 # temject
 
-templite互換です。
+'Hello, {{name:pascal}}! Today is {{__date}}'  
+--> "Hello, World! Today is 2018-12-04"
+
+[![Build Status](https://travis-ci.org/mick-whats/temject.svg?branch=master)](https://travis-ci.org/mick-whats/temject)
+[![Build status](https://ci.appveyor.com/api/projects/status/fju07lh2bbqomvqh/branch/master?svg=true)](https://ci.appveyor.com/project/mick-whats/temject/branch/master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject?ref=badge_large)
 
 > [lukeed/templite: Lightweight templating in 150 bytes](https://github.com/lukeed/templite)
 > 
