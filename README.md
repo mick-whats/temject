@@ -1,8 +1,11 @@
 # temject
 
+`template` + `injection` = `temject`
+
+```
 'Hello, {{name:pascal}}! Today is {{__date}}'  
 --> "Hello, World! Today is 2018-12-04"
-
+```
 [![Build Status](https://travis-ci.org/mick-whats/temject.svg?branch=master)](https://travis-ci.org/mick-whats/temject)
 [![Build status](https://ci.appveyor.com/api/projects/status/fju07lh2bbqomvqh/branch/master?svg=true)](https://ci.appveyor.com/project/mick-whats/temject/branch/master)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmick-whats%2Ftemject?ref=badge_shield)
@@ -22,7 +25,7 @@ templite('Hello, {{name}}!', { name: 'world' });
 ```
 
 
-加えて以下の機能があります。
+`temject`は`templite`の機能を備えています。加えて以下の機能があります。
 
 - テンプレート文字列をパスカルケースやスネークケース等に変換できます
 - テンプレート文字列をdatetime(実行時の日付や時刻)に変換できます
@@ -71,7 +74,7 @@ class MyFunction {}
 
 
 templite本来のapiは以下を参照願います。
-`templite`の部分を`temject`に変えるのをお忘れなく。
+(`templite`の部分を`temject`に変えるのをお忘れなく)
 
 > [templite: API](https://github.com/lukeed/templite#api)
 
@@ -219,11 +222,6 @@ dateTimeInjector('{{0:camel}}{{0:pascal}}{{0:dot}}', ['toDo'])
 // -> 'toDoToDoto.do'
 ```
 
-
-## TODO
-
-- strで指定したkeyが`mix`に存在しない時に警告する(もしくはエラーを吐く)
-- strのみを走査して`key`のlistを返す関数を作成
 
 ## License
 MIT © mick-whats
