@@ -222,6 +222,18 @@ dateTimeInjector('{{0:camel}}{{0:pascal}}{{0:dot}}', ['toDo'])
 // -> 'toDoToDoto.do'
 ```
 
+### expressions(input)
+
+template内全ての`key`を取得します。
+重複は省かれます。
+
+```js
+const {expressions} = require('temject');
+const str = '{{name}}{{name:pascal}}{{age}}'
+const res = expressions(str)
+// -> [ 'name', 'age' ]
+```
+
 
 ## License
 MIT © mick-whats
