@@ -1,4 +1,4 @@
-const expressions = require('../expressions')
+const { expressions } = require('..')
 
 test('expressions test', () => {
   const str = '{{name}}{{name:pascal}}{{age}}'

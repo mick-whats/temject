@@ -12,7 +12,6 @@
 module.exports = function expressions (str) {
   const RGX = /{{(.*?)}}/g
   const m = str.match(RGX)
-  console.log('m: ', m)
   return m
     ? str
       .match(RGX)
