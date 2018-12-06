@@ -1,8 +1,10 @@
 const dateTimeInjector = require('./dateTimeInjector')
 const keyValueInjector = require('./keyValueInjector')
+const expressions = require('./expressions')
 
 module.exports.dateTimeInjector = dateTimeInjector
 module.exports.keyValueInjector = keyValueInjector
+module.exports.expressions = expressions
 
 /**
  * temject
