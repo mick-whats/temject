@@ -1,11 +1,5 @@
 lang: en
 templates:
-  src: { path: "./src/{{name}}.js", contents: "const foo = 'var';
-
-        class {{name:pascal}}" }
-  test:
-    path: ./test/{{name}}.test.js
-    contents: ["const {{name}} = require('../src/{{name}}.js');"]
   Function:
     path: ./src/{{dir}}/{{name}}.js
     contents: [
