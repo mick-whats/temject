@@ -36,9 +36,6 @@
     "prettier": "^1.15.3"
   },
   "main": "src/index.js",
-  "files": [
-    "src"
-  ],
   "homepage": "https://github.com/mick-whats/temject",
   "bugs": "https://github.com/mick-whats/temject/issues",
   "repository": {
