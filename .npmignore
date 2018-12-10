@@ -3,4 +3,4 @@ memo
 appveyor.yml
 yarn.lock
 .*
-**/__tests__/*.js
+__tests__
