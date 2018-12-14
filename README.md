@@ -230,9 +230,13 @@ template内全ての`key`を取得します。
 ```js
 const {expressions} = require('temject');
 const str = '{{name}}{{name:pascal}}{{age}}'
-const res = expressions(str)
+expressions(str)
 // -> [ 'name', 'age' ]
+expressions(str, { ignore: ['name'] })
+// -> [ 'age' ]
 ```
+
+
 
 
 ## License
